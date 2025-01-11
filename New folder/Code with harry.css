@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.demo img{
+    width: 42px;
+    padding: 0 8px;
+}
+.demo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 62.85vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(lofi.jpg);
+}
+
+
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icon{
+    margin-top: 14px;
+}
+
+.icon i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songIteamContainer{
+    margin-top: 54px;
+}
+
+.songIteams {
+    height: 32px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songIteams img {
+    width: 30px;
+    margin: 0 8px;
+    border-radius: 12px;
+}
+
+.songListPlay i{
+    cursor: pointer;
+}
+
+.timeStamp {
+    margin: 0 23px;
+}
+
+.songInfo {
+
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media media-type and (media-feature)
+{
+/* CSS Rules to be applies*/
+}
